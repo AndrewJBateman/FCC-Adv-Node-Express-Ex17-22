@@ -31,6 +31,7 @@
 5) You will create all of the functional tests in `tests/2_functional-tests.js`
 
 * MongoDB Cloud Atlas database set up to use Google Cloud Storage.
+* Authorizes user to access [App Auth Exercise](https://github.com/settings/applications/904757)
 
 ## :camera: Screenshots
 
@@ -45,7 +46,7 @@
 * [Helmet v4](https://helmetjs.github.io/) Express.js security with HTTP headers.
 * [Passport v0.4](http://www.passportjs.org/) authentication middleware for Node.js
 * [Cors v2](https://www.npmjs.com/package/cors) node.js package for providing Connect/Express middleware that can be used to enable CORS with various options.
-* [Pug v2](https://pugjs.org/api/getting-started.html) template engine for Node.js and browser that compiles to HTML.
+* [Pug v3](https://pugjs.org/api/getting-started.html) template engine for Node.js and browser that compiles to HTML.
 * [jQuery v3](https://jquery.com/) Javascript library
 
 ## :floppy_disk: Setup
@@ -78,8 +79,8 @@ passport.deserializeUser((id, done) => {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Part working. Github Client authorization works but I get a server error message 500 after.
-* To-Do: Fix error
+* Status: working. Github Client authorization works and a bare-bones chat room is displayed.
+* To-Do: nothing
 
 ## :clap: Inspiration
 
